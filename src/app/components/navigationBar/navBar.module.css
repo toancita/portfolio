@@ -1,0 +1,88 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 0.5rem;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+.dot {
+  color: var(--primary);
+}
+
+.center {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--secondary-bg);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+}
+
+.link {
+  font-weight: bold;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.iconButton {
+  background: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.languageSelect {
+  border: 1px solid var(--text-color);
+  background: var(--bg-color);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.contactButton {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mobileOnly {
+  display: none;
+}
