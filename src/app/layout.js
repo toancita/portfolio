@@ -1,5 +1,6 @@
 import './globals.css'
 import NavBar from './components/navigationBar/navBar.jsx';
+import Footer from './components/footer/footer.jsx';
 import { Inter, Newsreader } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   )
