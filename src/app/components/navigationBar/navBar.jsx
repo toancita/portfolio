@@ -3,26 +3,10 @@
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import styles from './navBar.module.css';
+import { ThemeToggle } from '../themeToggle/themeToggle';
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);
-  const [theme, setTheme] = useState('light');
-
-  useEffect(() => {
-    const stored = localStorage.getItem('theme');
-    if (stored) {
-      setTheme(stored);
-    }
-  }, []);
-
-  useEffect(() => {
-    document.body.className = theme;
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
-  };
 
   return (
     <>
@@ -42,9 +26,7 @@ export default function NavBar() {
         </div>
 
       <div className={styles.right}>
-        <button className={styles.iconButton} onClick={toggleTheme}>
-            {theme === 'light' ? '🌙' : '☀️'}
-          </button>
+        <ThemeToggle/>
         <select className={styles.languageSelect}>
           <option>EN</option>
           <option>ES</option>
