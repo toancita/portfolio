@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Kapakana';
-  src: url('/fonts/Kapakana/Kapakana-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
+  src: url('/fonts/Kapakana-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
