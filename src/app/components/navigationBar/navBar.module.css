@@ -63,16 +63,6 @@
   cursor: pointer;
 }
 
-.languageSelect {
-  border: 1px solid var(--text-color);
-  background: var(--bg-color);
-  padding: 0.4rem 0.6rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  font-weight: bold;
-  color: var(--text-color);
-}
-
 .contactButton {
   background-color: var(--primary);
   color: white;

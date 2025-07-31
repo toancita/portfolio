@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import styles from './navBar.module.css';
 import { ThemeToggle } from '../themeToggle/themeToggle';
+import LanguageSelect from '../selectBtn/selectBtn';
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);
@@ -27,10 +28,7 @@ export default function NavBar() {
 
       <div className={styles.right}>
         <ThemeToggle/>
-        <select className={styles.languageSelect}>
-          <option>EN</option>
-          <option>ES</option>
-        </select>
+        <LanguageSelect />
         <button className={styles.contactButton}>Contact</button>
       </div>
 
