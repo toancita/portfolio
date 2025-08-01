@@ -10,17 +10,17 @@ export default function Footer() {
       <h2 className={styles.title}>Let’s start</h2>
 
       <div className={styles.icons}>
-        <a href="https://github.com/tuUsuario" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/toancita" target="_blank" rel="noopener noreferrer">
           <div className={styles.iconCircle}>
             <Github size={28} strokeWidth={2} />
           </div>
         </a>
-        <a href="https://linkedin.com/in/tuPerfil" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/antonellamanzanares" target="_blank" rel="noopener noreferrer">
           <div className={styles.iconCircle}>
             <Linkedin size={28} strokeWidth={2} />
           </div>
         </a>
-        <a href="mailto:correo@ejemplo.com">
+        <a href="antomartinamanzanares@gmail.com">
           <div className={styles.iconCircle}>
             <Mail size={28} strokeWidth={2} />
           </div>
