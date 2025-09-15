@@ -13,23 +13,21 @@
 }
 
 :root {
-  --bg-color: #f1f1f1;
+  --bg-color: #F0F2F8;
   --secondary-bg: #f8f8f8;
 
   --text-color: #000000;
   --primary: #054AB1;
-  --secondary: #DDFFCA;
-  --accent: #FF9000;
   --border-color: #C8C8C8;
 
-  --font-title: 'Newsreader', serif;
   --font-body: 'Inter', sans-serif;
   --font-decorative: 'Kapakana', sans-serif;
 }
 
 body.dark {
-  --bg-color: #121212;
+  --bg-color: #1B1D32;
   --text-color: #ffffff;
+  --primary: #81B3FF;
 }
 
 body {
@@ -37,6 +35,12 @@ body {
   padding: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: sans-serif;
+  font-family: var(--font-body);
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.textHighlight {
+  color: var(--primary);
+  font-family: var(--font-decorative);
+  font-size: 5rem;
 }
