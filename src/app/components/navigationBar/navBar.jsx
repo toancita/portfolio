@@ -12,11 +12,10 @@ export default function NavBar() {
   return (
     <>
       <nav className={styles.nav}>
-
         <div className={styles.left}>
           <img src="/images/logo.svg" alt="Logo" className={styles.logo} />
           <span className={styles.brand}>
-            <strong>Antonella</strong><span className={styles.dot}>.</span>
+            <strong href="#home">Antonella</strong><span className={styles.dot}>.</span>
           </span>
         </div>
 

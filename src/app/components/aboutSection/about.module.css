@@ -20,9 +20,10 @@
 .leftContent p {
   font-size: 1.1rem;
   line-height: 1.8rem;
+  font-weight: 400;
 }
 
-.leftContent strong {
+.leftContent strong:nth-of-type(2) {
   color: var(--primary);
 }
 
@@ -41,6 +42,11 @@
   display: block;
   max-width: 100%;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.square img:hover {
+  transform: scale(1.02);
 }
 
 @media (max-width: 1024px) {
