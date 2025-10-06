@@ -9,13 +9,10 @@
 .subtitle {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  opacity: 0.8;
-  margin-bottom: 0.5rem;
-  color: #CACACA;
+  opacity: 60%;
 }
 
 .title {
-  font-family: var(--font-title);
   font-weight: 900;
   font-style: italic;
   margin-bottom: 2rem;
@@ -45,7 +42,6 @@
 .iconCircle:hover {
   background-color: rgba(255, 255, 255, 0.25);
   transform: translateY(-4px);
-  cursor: pointer;
 }
 
 .separator {
@@ -57,18 +53,11 @@
 
 .bottomText {
   font-size: 0.9rem;
-  opacity: 0.8;
-  color: #CACACA;
+  opacity: 60%;
 }
 
 .privacyLink {
-  color: #CACACA;
   text-decoration: none;
-  margin-left: 0.5rem;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.2s ease;
-}
-
-.privacyLink:hover {
   color: white;
+  margin-left: 0.5rem;
 }
