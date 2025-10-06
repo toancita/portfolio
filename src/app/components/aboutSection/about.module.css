@@ -1,7 +1,4 @@
 .about {
-  height: 90vh;
-  width: auto;
-  padding: 4rem 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
