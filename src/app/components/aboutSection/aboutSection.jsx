@@ -23,10 +23,6 @@ export default function AboutSection() {
             />
           </div>
         </div>
-
-        <div className={styles.skills}>
-
-        </div>
       </section>
   );
 }

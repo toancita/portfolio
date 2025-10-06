@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  font-weight: 700;
+}
+
+.skillItem:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+:global(.dark) .icon {
+  filter: invert(1);
+}
+
